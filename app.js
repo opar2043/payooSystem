@@ -10,7 +10,7 @@ document.getElementById('form-btn').addEventListener('click', function(e){
     console.log(mobileNumber,pinNumber);
 
     if(mobileNumber === '018' && pinNumber === '1234'){
-         window.location.href= '/home.html';
+         window.location.href= './home.html';
     }
     else{
         alert('wrong passward.Try again!')
